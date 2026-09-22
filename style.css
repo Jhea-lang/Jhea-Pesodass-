@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #4f46e5;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* SECTIONS */
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4f46e5;
+    margin-bottom: 15px;
+}
+
+
+/* SKILLS */
+
+.skill-container {
+    display: flex;
+    gap: 20px;
+}
+
+.skill {
+    flex: 1;
+    background-color: #eef2ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skill h3 {
+    color: #4f46e5;
+    margin-bottom: 10px;
+}
+
+
+/* GOALS */
+
+.goals ul {
+    padding-left: 25px;
+}
+
+.goals li {
+    margin-bottom: 8px;
+}
+
+
+/* BUTTON */
+
+button {
+    margin-top: 15px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3730a3;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+
+
